@@ -7,22 +7,25 @@ You need to clone or [Download](https://github.com/norato/myAfterFormat/archive/
 
 `git clone git@github.com:norato/myAfterFormat.git`
 
+`cd myAfterFormat`
+
+`make`
+
 
 
 # Table of Contents
-  * [Install and Usage](#bootstrap)
-  * [Tools](#tools)
-  
+ * [System Improvements](#os-improvements)
+ * [Git](#git) 
 
+## System Improvements <a id="os-improvements"></a>
++ **Update & Upgrade** - It`s the first thing we need to do!
++ **Codecs** -  Install some multimedia codecs using _ubuntu-restricted-extras_ repisitory.
 
+## Git <a id="git"></a>
++ Install git
++ Create gitconfig
++ Create some aliases
 
-
-## Tools <a id="tools"></a>
-
-+ System Improvements
- - Update & Upgrade
- - Codecs
-+ Git
 + Sublime
 + Shell
  - ZSH
