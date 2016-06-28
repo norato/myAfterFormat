@@ -1,7 +1,10 @@
 include scripts/*
-all: init git-install
 
-init:
+all: init git-install atom-install node-install sublime-install zsh-install
+
+init: update codecs chrome-install skype-install zeal-install
+
+update:
 	sudo apt-get update && sudo apt-get upgrade -y
 
 codecs:
