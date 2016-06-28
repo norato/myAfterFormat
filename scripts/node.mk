@@ -1,14 +1,15 @@
-node-install: install-node node-helpers-install
+node-install: install-node npm-permissions node-helpers
 
 install-node:
-	sudo add-apt-repository ppa:chris-lea/node.js
-	sudo apt-get update
-	sudo apt-get install nodejs
-	sudo apt-get install npm
+	curl -sL https://deb.nod/esource.com/setup_6.x | sudo -E bash -
+	sudo apt-get install nodejs -y
 
-node-helpers-install:
-	sudo npm install bower -g
-	sudo npm install http-server -g
-	sudo npm install csscomb -g
-	sudo npm install gitopen -g
-	sudo npm install yo -g
+npm-permissions:
+	$(shell sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share})
+
+node-helpers:
+	npm install bower -g
+	npm install http-server -g
+	npm install csscomb -g
+	npm install gitopen -g
+	npm install yo -g

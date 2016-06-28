@@ -1,6 +1,6 @@
 zsh-install: install-zsh
 
 install-zsh:
-	sudo apt-get install zsh terminator
+	sudo apt-get install zsh terminator -y
 	wget –no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O – | sh
 	chsh -s /bin/zsh
