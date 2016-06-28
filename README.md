@@ -35,3 +35,4 @@ You need to clone or [Download](https://github.com/norato/myAfterFormat/archive/
 + RVM
 + Postgres
 + Chrome
++ Skype
