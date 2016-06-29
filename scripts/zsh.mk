@@ -5,7 +5,7 @@ install-zsh:
 
 install-terminator:
 	sudo apt-get install terminator -y
+	chsh -s /bin/zsh
 
 install-ohmyz:
-	wget –no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O – | sh
-	chsh -s /bin/zsh
+	sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
