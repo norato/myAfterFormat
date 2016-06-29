@@ -1,6 +1,5 @@
 atom-install: install-atom
 
 install-atom:
-	sudo add-apt-repository ppa:webupd8team/atom
-	sudo apt-get update
-	sudo apt-get install atom -y
+	wget -O atom https://atom.io/download/deb
+	sudo dpkg -i atom && rm atom
