@@ -6,10 +6,10 @@ init: update codecs chrome-install skype-install zeal-install
 
 update:
 	sudo apt-get update && sudo apt-get upgrade -y
-	sudo apt-get install -y build-essential
+	sudo apt-get install build-essential -y
 
 codecs:
-	sudo apt-get install ubuntu-restricted-extras
+	sudo apt-get install ubuntu-restricted-extras -y
 
 chrome-install:
 	wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
@@ -19,10 +19,7 @@ chrome-install:
 
 skype-install:
 	wget -O skype http://download.skype.com/linux/skype-ubuntu-precise_4.1.0.20-1_i386.deb
-	sudo dpkg -i skype
-	sudo apt-get -f install && sudo rm skype -y
+	sudo dpkg -i skype && rm skype
 
 zeal-install:
-	sudo add-apt-repository ppa:zeal-developers/ppa
-	sudo apt-get update
 	sudo apt-get install zeal -y
