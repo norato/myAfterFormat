@@ -27,3 +27,4 @@ You need to clone or [Download](https://github.com/norato/myAfterFormat/archive/
 + **RVM** - make rvm-install
 + **Postgres** - make install-postgres
 + **Rails** - make rails-install
++ **Spotify** - make spotify-install

@@ -8,7 +8,7 @@ node-helpers:
 	sudo npm install bower -g
 	sudo npm install http-server -g
 	sudo npm install csscomb -g
-	sudo npm install gitopen -g
+	sudo npm install git-open -g
 	sudo npm install yo -g
 
 npm-permissions:
