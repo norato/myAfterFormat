@@ -1,4 +1,4 @@
-# MyAfterFormat
+# MyAfterFormat for Ubuntu based distros
 
 This repository is an automatic installation of many tools and other configurations.
 ## Install and Usage
@@ -9,30 +9,21 @@ You need to clone or [Download](https://github.com/norato/myAfterFormat/archive/
 
 `cd myAfterFormat`
 
-`make`
+`make [options]`
 
 
-
-# Table of Contents
- * [System Improvements](#os-improvements)
- * [Git](#git) 
-
-## System Improvements <a id="os-improvements"></a>
-+ **Update & Upgrade** - It`s the first thing we need to do!
-+ **Codecs** -  Install some multimedia codecs using _ubuntu-restricted-extras_ repisitory.
-
-## Git <a id="git"></a>
-+ Install git
-+ Create gitconfig
-+ Create some aliases
-
-+ Sublime
-+ Shell
- - ZSH
- - OH-Myz-sh
-+ Zeal
-+ NPM
-+ RVM
-+ Postgres
-+ Chrome
-+ Skype
++ **Update & Upgrade + build-essential + curl** - make update
++ **Codecs** - make codecs
++ **Slack** - make slack-install
++ **Zeal** - make zeal-install
++ **Chrome** - make chrome-install
++ **Skype** - make skype-install
++ **Git** - make git-install
++ **Sublime** - make sublime-install
++ **Atom** - make atom-install
++ **ZSH** - make zsh-install
++ **OH-Myz-sh** - make install-ohmyz
++ **NPM** - make node-install
++ **RVM** - make rvm-install
++ **Postgres** - make install-postgres
++ **Rails** - make rails-install
