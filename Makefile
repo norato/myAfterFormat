@@ -2,11 +2,11 @@ include scripts/*
 
 all: init git-install atom-install node-install sublime-install zsh-install
 
-init: update codecs chrome-install skype-install zeal-install
+init: update codecs chrome-install skype-install zeal-install slack-install
 
 update:
 	sudo apt-get update && sudo apt-get upgrade -y
-	sudo apt-get install build-essential -y
+	sudo apt-get install build-essential curl -y
 
 codecs:
 	sudo apt-get install ubuntu-restricted-extras -y
@@ -23,3 +23,7 @@ skype-install:
 
 zeal-install:
 	sudo apt-get install zeal -y
+
+slack-install:
+	wget -O slack https://downloads.slack-edge.com/linux_releases/slack-desktop-2.0.6-amd64.deb
+	sudo dpkg -i slack && rm slack
