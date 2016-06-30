@@ -1,0 +1,9 @@
+[user]
+	name = Felipe Norato Lacerda
+	email = fnoratol@gmail.com
+
+[alias]
+    st = status
+    ci = commit -v
+    co = checkout
+    cm = checkout origin master

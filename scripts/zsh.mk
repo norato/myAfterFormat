@@ -9,3 +9,8 @@ terminator:
 
 ohmyz: install-zsh
 	sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+
+zshconfig:	
+	rm -f ~/.zshrc
+	cp `pwd`/dotfiles/zshrc ~/.zshrc
