@@ -1,4 +1,4 @@
-atom-install: install-atom
+atom: install-atom
 
 install-atom:
 	wget -O atom https://atom.io/download/deb

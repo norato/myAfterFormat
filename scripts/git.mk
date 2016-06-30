@@ -1,4 +1,4 @@
-git-install: install-git
+git: install-git
 
 install-git:
 	sudo apt-get install git -y

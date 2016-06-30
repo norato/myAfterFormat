@@ -1,4 +1,4 @@
-node-install: install-node node-helpers
+node: install-node node-helpers
 
 install-node:
 	curl -sL https://deb.nod/esource.com/setup_6.x | sudo -E bash -

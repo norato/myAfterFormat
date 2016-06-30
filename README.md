@@ -14,17 +14,17 @@ You need to clone or [Download](https://github.com/norato/myAfterFormat/archive/
 
 + **Update & Upgrade + build-essential + curl** - make update
 + **Codecs** - make codecs
-+ **Slack** - make slack-install
-+ **Zeal** - make zeal-install
-+ **Chrome** - make chrome-install
-+ **Skype** - make skype-install
-+ **Git** - make git-install
-+ **Sublime** - make sublime-install
-+ **Atom** - make atom-install
-+ **ZSH** - make zsh-install
-+ **OH-Myz-sh** - make install-ohmyz
-+ **NPM** - make node-install
-+ **RVM** - make rvm-install
-+ **Postgres** - make install-postgres
-+ **Rails** - make rails-install
-+ **Spotify** - make spotify-install
++ **Slack** - make slack
++ **Zeal** - make zeal
++ **Chrome** - make chrome
++ **Skype** - make skype
++ **Git** - make git
++ **Sublime** - make sublime
++ **Atom** - make atom
++ **ZSH** - make zsh
++ **OH-Myz-sh** - make ohmyz
++ **NPM** - make node
++ **RVM** - make rvm
++ **Postgres** - make postgres
++ **Rails** - make rails
++ **Spotify** - make spotify
