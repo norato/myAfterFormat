@@ -1,6 +1,6 @@
 include scripts/*
 
-all: init git atom node sublime zsh
+all: init git atom node sublime
 
 init: update codecs chrome skype zeal slack
 
