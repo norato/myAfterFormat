@@ -28,3 +28,15 @@ You need to clone or [Download](https://github.com/norato/myAfterFormat/archive/
 + **Postgres** - make postgres
 + **Rails** - make rails
 + **Spotify** - make spotify
++ **Elasticsearch** - make elasticsearch
++ **Dropbox** - make dropbox
++ **Copy gitconfig** - make gitconfig
++ **Copy zshrc** - make zshconfig
+
+
+To change postgres password
+`sudo -u postgres psql`
+
+`\password postgres`
+
+`\q`

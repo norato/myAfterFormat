@@ -33,3 +33,10 @@ spotify:
 	sudo sh -c 'echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list'
 	sudo apt-get update
 	sudo apt-get install spotify-client
+
+dropbox:
+	wget -O dropbox https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2015.10.28_amd64.deb
+	sudo dpkg -i dropbox && rm dropbox
+
+elasticsearch:
+	cd ~/Public && wget -O - "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.3.3/elasticsearch-2.3.3.tar.gz" | tar xzf -

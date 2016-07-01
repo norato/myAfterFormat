@@ -6,4 +6,4 @@
     st = status
     ci = commit -v
     co = checkout
-    cm = checkout origin master
+    cm = checkout master
