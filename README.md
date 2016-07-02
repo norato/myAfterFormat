@@ -32,6 +32,7 @@ You need to clone or [Download](https://github.com/norato/myAfterFormat/archive/
 + **Dropbox** - make dropbox
 + **Copy gitconfig** - make gitconfig
 + **Copy zshrc** - make zshconfig
++ **Jekyll** - make jekyll
 
 
 To change postgres password

@@ -21,7 +21,7 @@ alias gpsm='git push heroku-staging master'
 alias go='git open'
 
 alias elastic='~/Public/elasticsearch-2.3.3/bin/elasticsearch'
-alias jekyll='jekyll serve --watch'
+alias jks='jekyll serve --watch'
 
 alias rakem='bundle exec rake db:migrate'
 alias rakes='bundle exec rake db:seed'
