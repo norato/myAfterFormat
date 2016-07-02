@@ -35,6 +35,7 @@ You need to clone or [Download](https://github.com/norato/myAfterFormat/archive/
 
 
 To change postgres password
+
 `sudo -u postgres psql`
 
 `\password postgres`

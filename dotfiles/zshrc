@@ -13,17 +13,19 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig='atom ~/.zshrc'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
+# Git aliases
 alias gdmb='git branch --merged master | grep -v master | xargs git branch -d'
-
 alias gadd='git add -p'
-
 alias gpu='git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)'
 alias gpsm='git push heroku-staging master'
-
 alias go='git open'
 
 alias elastic='~/Public/elasticsearch-2.3.3/bin/elasticsearch'
+alias jekyll='jekyll serve --watch'
+
+alias rakem='bundle exec rake db:migrate'
+alias rakes='bundle exec rake db:seed'
+alias rakeall='bundle exec rake db:create db:migrate db:seed db:test:prepare'
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 

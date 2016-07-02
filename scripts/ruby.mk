@@ -16,4 +16,7 @@ rvm:
 	curl -sSL https://get.rvm.io | bash -s stable --ruby
 
 install-rails:
-	sudo gem install bundler rails
+	gem install bundler rails
+
+jekyll:
+	gem install jekyll
