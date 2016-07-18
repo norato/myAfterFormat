@@ -20,3 +20,7 @@ install-rails:
 
 jekyll:
 	gem install jekyll
+
+tmux:
+	sudo apt-get install -y tmux
+	gem install tmuxinator

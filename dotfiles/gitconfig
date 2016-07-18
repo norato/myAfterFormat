@@ -3,7 +3,8 @@
 	email = fnoratol@gmail.com
 
 [alias]
-    st = status
-    ci = commit -v
-    co = checkout
-    cm = checkout master
+    st  = status
+    ci  = commit -v -m
+    cia = commit -v -a -m
+    co  = checkout
+    cm  = checkout master
