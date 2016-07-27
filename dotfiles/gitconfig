@@ -8,3 +8,4 @@
     cia = commit -v -a -m
     co  = checkout
     cm  = checkout master
+    cb  = checkout -b
