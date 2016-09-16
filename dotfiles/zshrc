@@ -17,10 +17,10 @@ alias ohmyzsh="subl ~/.oh-my-zsh"
 alias gdmb='git branch --merged master | grep -v master | xargs git branch -d'
 alias gadd='git add -p'
 alias gpu='git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)'
+alias gpugo='gpu; go'
 alias gpsm='git push heroku-staging master'
 alias go='git open'
 alias gcm='git checkout master; git pull'
-alias gcmgo='git checkout master; git pull; go'
 alias gpall='gcm; gpsm'
 
 alias elastic='~/Public/elasticsearch-2.3.3/bin/elasticsearch'
