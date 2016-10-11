@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/norato/.oh-my-zsh
+export ZSH=/home/norato/.oh-my-zsh
 
 ZSH_THEME="amuse"
 
@@ -14,20 +14,37 @@ alias zshconfig='subl ~/.zshrc'
 alias ohmyzsh="subl ~/.oh-my-zsh"
 
 # Git aliases
+
+# Delete merged branches
 alias gdmb='git branch --merged master | grep -v master | xargs git branch -d'
+
 alias gadd='git add -p'
+
+# Open branch on browser
+alias go='git open'
+
+# Push
+## Origin
 alias gpu='git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)'
 alias gpugo='gpu; go'
+
+## Staging
 alias gpsm='git push heroku-staging master'
-alias go='git open'
+alias gppsm='gcm; gpsm'
+
+## Production
+alias gppm='git push heroku master'
+
+# Pull
 alias gcm='git checkout master; git pull'
-alias gpall='gcm; gpsm'
+
 
 alias elastic='~/Public/elasticsearch-2.3.3/bin/elasticsearch'
 alias jks='jekyll serve --watch'
 
 alias rakem='bundle exec rake db:migrate'
 alias rakes='bundle exec rake db:seed'
+alias rakesl='bundle exec rake db:schema:load'
 alias rakeall='bundle exec rake db:create db:migrate db:seed db:test:prepare'
 alias rs='spring rails s'
 alias rc='spring rails c'
